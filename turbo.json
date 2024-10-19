@@ -1,14 +1,15 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "ui": "tui",
+  "ui": "stream",
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": ["dist/**"],
+      "cache": true
     },
-    "lint": {
-      "dependsOn": ["^lint"]
+    "//#biome:check": {},
+    "//#biome:write": {
+      "cache": false
     },
     "dev": {
       "cache": false,

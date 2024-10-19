@@ -5,15 +5,19 @@ node_modules
 .pnp
 .pnp.js
 
-# Local env files
+# API keys and secrets
 .env
 .env.local
+.env.development
 .env.development.local
 .env.test.local
+.env.production
 .env.production.local
+.npmrc
 
 # Testing
-coverage
+/coverage
+/.nyc_output
 
 # Turbo
 .turbo
@@ -27,12 +31,41 @@ out/
 build
 dist
 
-
 # Debug
+logs
+*.log
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+
 
 # Misc
 .DS_Store
 *.pem
+
+# OS
+.DS_Store
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+
+# Storage
+public/uploads
+!public/uploads
+.docker/data-*/db/*
+!.docker/data-*/db/.keep
+.docker/data-*/cache/*
+!.docker/data-*/cache/.keep
+.docker-compose
+
+# Node
+.node-version

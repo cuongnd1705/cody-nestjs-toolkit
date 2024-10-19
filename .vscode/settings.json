@@ -1,7 +1,36 @@
 {
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ]
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.defaultFormatter": "biomejs.biome",
+	"prettier.enable": false,
+	"eslint.enable": false,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"javascript.suggest.autoImports": true,
+	"typescript.suggest.autoImports": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/dist": true,
+		"**/coverage": true
+	},
+	"typescript.referencesCodeLens.enabled": true,
+	"typescript.tsdk": "node_modules/typescript/lib"
 }

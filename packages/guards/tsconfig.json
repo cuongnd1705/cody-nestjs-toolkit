@@ -1,6 +1,7 @@
 {
-  "extends": "@repo/typescript-config/react-library.json",
+  "extends": "@nestjs-toolkit/typescript-config/base.json",
   "compilerOptions": {
+    "baseUrl": "src",
     "outDir": "dist"
   },
   "include": ["src", "turbo"],
