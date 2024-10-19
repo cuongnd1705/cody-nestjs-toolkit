@@ -44,7 +44,7 @@ importers:
 
   packages/guards:
     devDependencies:
-      '@nestjs-toolkit/typescript-config':
+      '@cody-nestjs-toolkit/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       typescript:

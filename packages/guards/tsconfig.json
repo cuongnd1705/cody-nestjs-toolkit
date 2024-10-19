@@ -1,5 +1,5 @@
 {
-  "extends": "@nestjs-toolkit/typescript-config/base.json",
+  "extends": "@cody-nestjs-toolkit/typescript-config/base.json",
   "compilerOptions": {
     "baseUrl": "src",
     "outDir": "dist"
