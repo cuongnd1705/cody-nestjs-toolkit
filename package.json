@@ -1,5 +1,19 @@
 {
-  "name": "nestjs-toolkit",
+  "name": "cody-nestjs-toolkit",
+  "description": "Cody NestJS Toolkit",
+  "homepage": "https://github.com/cuongnd1705/cody-nestjs-toolkit#readme",
+  "bugs": {
+    "url": "https://github.com/cuongnd1705/cody-nestjs-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuongnd1705/cody-nestjs-toolkit.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Cody Nguyen",
+    "email": "cuongnd.work@gmail.com"
+  },
   "scripts": {
     "biome:check": "biome check ./packages",
     "biome:write": "biome check --write ./packages",

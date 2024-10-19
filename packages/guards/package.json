@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs-toolkit/guards",
+  "name": "@cody-nestjs-toolkit/guards",
   "version": "0.0.1",
   "description": "",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "clean": "rm -rf .turbo node_modules dist"
   },
   "devDependencies": {
-    "@nestjs-toolkit/typescript-config": "workspace:*",
+    "@cody-nestjs-toolkit/typescript-config": "workspace:*",
     "typescript": "^5.6.3"
   },
   "publishConfig": {

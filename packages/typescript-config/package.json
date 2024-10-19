@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs-toolkit/typescript-config",
+  "name": "@cody-nestjs-toolkit/typescript-config",
   "version": "0.0.1",
   "license": "MIT",
   "publishConfig": {
